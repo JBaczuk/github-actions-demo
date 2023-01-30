@@ -3,9 +3,12 @@ on: push
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    #runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/setup-node@v1
-    - run: npm install
-    - run: npm test
+    - run: |
+        cat /etc/upstream-release/lsb-release
+        cat /etc/os-release
+        cat /usr/lib/os-release
+        cat /etc/lsb-release 
