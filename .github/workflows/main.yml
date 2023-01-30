@@ -9,6 +9,9 @@ jobs:
     - uses: actions/checkout@v2
     - run: |
         #cat /etc/upstream-release/lsb-release
+        echo "/etc/os-release"
         cat /etc/os-release
+        echo "/usr/lib/os-release"
         cat /usr/lib/os-release
+	echo "/etc/lsb-release"
         cat /etc/lsb-release 
