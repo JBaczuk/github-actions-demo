@@ -13,5 +13,5 @@ jobs:
         cat /etc/os-release
         echo "/usr/lib/os-release"
         cat /usr/lib/os-release
-	echo "/etc/lsb-release"
+        echo "/etc/lsb-release"
         cat /etc/lsb-release 
