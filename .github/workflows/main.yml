@@ -8,7 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: |
-        cat /etc/upstream-release/lsb-release
+        #cat /etc/upstream-release/lsb-release
         cat /etc/os-release
         cat /usr/lib/os-release
         cat /etc/lsb-release 
